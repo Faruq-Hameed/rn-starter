@@ -1,0 +1,2 @@
+- Generally for shared states, we create state variables in the most parent component that needs to read or change a state value.
+- if a child needs to read a state from parent, it can be passed down as prop
