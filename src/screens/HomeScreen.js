@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View, StyleSheet, Button, TouchableOpacity,Image } from "react-native";
-import ImageDetailggs from "../components/ImageDetails";
+import ImageDetails from "../components/ImageDetails";
 
 
 const HomeScreen = ({ navigation }) => {
