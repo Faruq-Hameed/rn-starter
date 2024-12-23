@@ -47,8 +47,10 @@ const HomeScreen = ({ navigation }) => {
         title="Go to Square Colour Demo"
         onPress={() => navigation.navigate("SquareColour")}
       />
-
-      {/* <Text style={styles.subText}>My name is {name}</Text>; */}
+      <Button
+        title="Go to Text Screen Demo"
+        onPress={() => navigation.navigate("Text")}
+      />
     </View>
   );
 };

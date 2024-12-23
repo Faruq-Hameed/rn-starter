@@ -8,7 +8,8 @@ import BillComponents from "./src/components/BillComponents";
 import ImageListComponents from "./src/screens/ImageListScreen";
 import CounterScreen from "./src/screens/CounterScreen";
 import ColourScreen from "./src/screens/ColourScreen";
-import SquareColourScreen from './src/screens/SquareColourScreen'
+import SquareColourScreen from './src/screens/SquareColourScreen';
+import TextScreen from './src/screens/TextScreen';
 
 
 const navigator = createStackNavigator(
@@ -22,6 +23,7 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     Colour: ColourScreen,
     SquareColour: SquareColourScreen,
+    Text: TextScreen,
   },
   {
     initialRouteName: "Home",
