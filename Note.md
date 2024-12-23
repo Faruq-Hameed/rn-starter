@@ -5,3 +5,4 @@
 - Anytime we managing states either we are using a reducer(manage them together) or we use useState hook (to manage them individually)
 - We can never have state changes being managed by both useState hook and reducer at the same time
 - anytime we want to change the state in the state object, we are going to rebuild the state object
+
