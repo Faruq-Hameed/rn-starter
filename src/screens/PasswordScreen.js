@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { View, Text, Button, StyleSheet, TextInput } from 'react-native';
 
-const TextScreen = () =>{
+const PasswordScreen = () =>{
 const [password, setPassword] = useState("")
     return (
       <View>
@@ -29,4 +29,4 @@ const style = StyleSheet.create({
     }
 })
 
-export default TextScreen
+export default PasswordScreen

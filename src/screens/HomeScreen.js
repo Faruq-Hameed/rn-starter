@@ -7,10 +7,6 @@ const HomeScreen = ({ navigation }) => {
   const name = "Faruq";
   return (
     <View>
-      <ImageDetails title="Beach" />
-
-      <Image source={require("../../assets/beach.jpg")} />
-      {/* <Text style={styles.headerText}></Text>; */}
       <Button
         title="Go to Components Demo"
         onPress={() => navigation.navigate("List")}
@@ -50,6 +46,18 @@ const HomeScreen = ({ navigation }) => {
       <Button
         title="Go to Text Screen Demo"
         onPress={() => navigation.navigate("Text")}
+      />
+       <Button
+        title="Go to Password Screen Demo"
+        onPress={() => navigation.navigate("Password")}
+      />
+      <Button
+        title="Go to Box Screen Demo"
+        onPress={() => navigation.navigate("Box")}
+      />
+        <Button
+        title="Go to Boxes Screen Demo"
+        onPress={() => navigation.navigate("Boxes")}
       />
     </View>
   );
