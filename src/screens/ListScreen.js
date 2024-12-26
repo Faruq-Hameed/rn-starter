@@ -27,7 +27,8 @@ const ListComponents = () => {
             {item.name} - Age {item.age}
           </Text>
         );
-      }}
+      }
+    }
     />
   );
 };
