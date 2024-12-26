@@ -17,3 +17,8 @@ e.g import {Feather} from @expo/vector-icons
 - Default text font size is 14
 - Anytime a TextInput is used, it is advisable to set autoCapitalize ={"none"} and autoCorrect = {false}
 - onEndEditing can be used to know when a user complete an edit also onSubmitEditing can handle that
+
+- useEffect allows us to run code snippet one time when our component first render to screen
+- if we only pass the first argument i.e the callback function only to the useEffect, the callback will be called every time the component is rendered which might not be what we want at every render.
+- if we pass the second argument (an empty array []) the useEffect will be only call the callback function once and that will be in the first rendered.
+- if the second argument contains elements in it the array, the useEffect will be called again when any value in the array changes though that is wield
