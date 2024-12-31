@@ -22,3 +22,21 @@ e.g import {Feather} from @expo/vector-icons
 - if we only pass the first argument i.e the callback function only to the useEffect, the callback will be called every time the component is rendered which might not be what we want at every render.
 - if we pass the second argument (an empty array []) the useEffect will be only call the callback function once and that will be in the first rendered.
 - if the second argument contains elements in it the array, the useEffect will be called again when any value in the array changes though that is wield
+
+- useNavigation hook(in functional component) can be used directly navigation instead of it being passed by the parent component to the child as prop that cares about it
+
+- centralizing data at the root level of our application is called global state management
+
+- props is used to pass data from direct parent to the immediate child components while context can be used to pass data from a parent to a deeply nested child component
+
+- the app.js of any react native app must always return a react component
+
+- usually when we create a context in react, we usually have one copy of it floating around
+
+- context system is technically just a system for communicating information. We are not actually using it to manage state rather than using it to move things(information) around. How Context Delivers Updates
+React ensures that:
+Any state change in the context's value triggers a re-render of all components consuming the context.
+Only the components that directly use the context will re-render. Others are unaffected.
+This makes context efficient for delivering changes without manually passing props to every component.
+
+- A reducer no matter what must always return a value
