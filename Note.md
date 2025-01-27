@@ -40,3 +40,31 @@ Only the components that directly use the context will re-render. Others are una
 This makes context efficient for delivering changes without manually passing props to every component.
 
 - A reducer no matter what must always return a value
+
+-Automated function to set u p Context and Provider 
+ * reusable context-based state management
+ * can use this function to create multiple contexts for different parts of your application, 
+ * each with its own reducer and initial state.
+
+ - Even though we have a centralizing state manager with context, we can still have small state in a component.
+
+ - process of adding some state into a test input is called TURNING THAT THING INTO CONTROL INPUT
+- whenever we are getting data from  api we should rely on it as is it the total source of truth and 100% reliable
+
+- React Stack Navigator allows us to go back and forth between different screens.
+
+- There are other Navigators available to us that we can use for other forms of common types of navigation. We can find doc on them on reactnavigation.org/docs/en/api-reference.html
+
+- Bottom Tab Navigator shows a collection of different screens that are tied together with a tab bar at the bottom of the screen of the device with buttons to navigate between screens
+
+- Switch Navigator e.g when user go from sign in screen to the dashboard screen (after successful login) we abruptly switch the screen to Dashboard without a way to switch back
+
+-Drawer Navigator give a flyout menu from either from left side or right side and inside that flyout window, there will be different links that user can tap to go to different screens in the application
+
+- It is advisable that navigation to and from different screens should be setup first when creating application
+
+- react-native-element is a library that has a lot of pre-built common components inside of it that already have some default stylings applied to it.
+
+- we can use Async storage to store small information like json data and persisted across the application. We should only store small information not big data like image or other big data
+
+- SafeAreaView ensure that no content on the screen is rendered behind the device status bar
