@@ -70,7 +70,7 @@ This makes context efficient for delivering changes without manually passing pro
 - SafeAreaView ensure that no content on the screen is rendered behind the device status bar
 
 - MapView component too is like image, it has no default hight or width so u have to add them so you can see it 
-- By default google map will set lat and long to zero whereas on apple it gonna try to set to your local country but with initialRegion Prop we can 
+- By default google map will set lat and long to zero whereas on apple it gonna try to set to your local country but with initialRegion Prop we can change the default location
 
 - Tracking user foreground location while the application is visible on the screen we that is foreground location tracking. It is easier to set up.
 
