@@ -2,13 +2,13 @@ import React, {useState} from 'react'
 import { View, Text, Button, StyleSheet, TextInput } from 'react-native';
 
 const PasswordScreen = () =>{
-const [password, setPassword] = useState("")
+const [password, setPassword] = useState<string>("")
     return (
       <View>
         <Text>Enter Password:</Text>
         <TextInput
           style={style.input}
-          onEndEditing={() => setPassword(password + value)}
+          onEndEditing={(value) => setPassword(password + value)}
           autoCapitalize="none"
           autoCorrect={false}
           value={password}

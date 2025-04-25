@@ -68,3 +68,18 @@ This makes context efficient for delivering changes without manually passing pro
 - we can use Async storage to store small information like json data and persisted across the application. We should only store small information not big data like image or other big data
 
 - SafeAreaView ensure that no content on the screen is rendered behind the device status bar
+
+- MapView component too is like image, it has no default hight or width so u have to add them so you can see it 
+- By default google map 
+
+- Tracking user foreground location while the application is visible on the screen we that is foreground location tracking. It is easier to set up.
+
+- Background tracking is enabled at all time even if the user is not using the app. It consumes battery. More complicated to set up
+
+-  The cleanup function you return from a useEffect hook is called when the component is unmounted or before the effect is re-run (if the dependency array changes).
+
+- useFocusEffect (from React Navigation)
+Purpose:
+Runs when the screen comes into focus.
+Runs its cleanup when the screen goes out of focus (loses focus).
+

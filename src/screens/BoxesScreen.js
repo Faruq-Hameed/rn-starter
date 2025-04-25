@@ -28,21 +28,20 @@ const styles = StyleSheet.create({
     subParentStyle:{
         flex: 1,
         flexDirection: "row",
-        // columnGap: 40,
+        columnGap: 10,
         // paddingBottom:20
     },
     childAStyle: {
         backgroundColor: "orange",
-        flex: 0.7,
+        flex:1,
     },
     childBStyle: {
-        flex: 0.8,
+        flex:1,
         backgroundColor: "green",
-        marginHorizontal: 20,
-        top: 110
+        top:'110%'
     },
     childCStyle: {
-        flex: 0.7,
+        flex: 1,
         backgroundColor: "purple",
 
     },

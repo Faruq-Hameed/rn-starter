@@ -41,7 +41,8 @@ const styles = StyleSheet.create({
     //     justify: "space-between",
     //     height: "100%",
     borderWidth: 1,
-    borderColor: "black"
+    padding: 10,
+    borderColor: "black",
   },
   testStyles: {
     marginVertical: 50,

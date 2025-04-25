@@ -13,7 +13,7 @@ import TextScreen from './src/screens/TextScreen';
 import PasswordScreen from "./src/screens/PasswordScreen";
 import BoxScreen from "./src/screens/BoxScreen";
 import BoxesScreen from "./src/screens/BoxesScreen";
-
+console.log("hello")
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
@@ -27,7 +27,10 @@ const navigator = createStackNavigator(
     SquareColour: SquareColourScreen,
     Text: TextScreen,
     Password: PasswordScreen,
-    Box:BoxScreen,
+    Box:{navigationOptions:{
+      title: "Box",
+      headerTintColor: "green" //all header text colour for the screen
+    } , screen: BoxScreen},
     Boxes: BoxesScreen,
   },
   {
